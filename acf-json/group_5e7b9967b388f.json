@@ -1,12 +1,12 @@
 {
-    "key": "group_5e58278fdac30",
-    "title": "Options: Header",
+    "key": "group_5e7b9967b388f",
+    "title": "Options",
     "fields": [
         {
-            "key": "field_5e58279d32d19",
-            "label": "Use sticky navigation",
-            "name": "use_sticky_navigation",
-            "type": "true_false",
+            "key": "field_5e7b996f7efa0",
+            "label": "Footer Logo",
+            "name": "footer_logo",
+            "type": "image",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -15,11 +15,16 @@
                 "class": "",
                 "id": ""
             },
-            "message": "",
-            "default_value": 0,
-            "ui": 0,
-            "ui_on_text": "",
-            "ui_off_text": ""
+            "return_format": "url",
+            "preview_size": "medium",
+            "library": "all",
+            "min_width": "",
+            "min_height": "",
+            "min_size": "",
+            "max_width": "",
+            "max_height": "",
+            "max_size": "",
+            "mime_types": ""
         }
     ],
     "location": [
@@ -27,7 +32,7 @@
             {
                 "param": "options_page",
                 "operator": "==",
-                "value": "acf-options-header"
+                "value": "acf-options"
             }
         ]
     ],
@@ -39,5 +44,5 @@
     "hide_on_screen": "",
     "active": 1,
     "description": "",
-    "modified": 1582836274
+    "modified": 1585176745
 }
